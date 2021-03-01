@@ -1,0 +1,1 @@
+alert tcp 172.31.90.209 any -> 172.31.0.2 80 (msg:"Sample rule"; content:"Outbound_Traffic"; sid:12000001;)
